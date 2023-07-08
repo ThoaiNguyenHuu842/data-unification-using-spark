@@ -43,7 +43,7 @@ def run_unify(primary_key):
         .option("collection", "contact_activity") \
         .load()
 
-    # load transactions from paymetn MySQL database
+    # load transactions from payment MySQL database
     transactions = get_transactions();
 
     # merge data to create unified contact
